@@ -1,0 +1,19 @@
+print("""
+işlemler:
+1 toplama işlemi
+2 çıkarma işlemi 
+3çarpma işlemi
+4 bölme işlemi
+""")
+a= int(input("birinci sayıyı girin:"))
+b= int(input("ikinci sayıyı girin:"))
+işlem= input("işlemi girin:")
+
+if işlem=="1":
+  print("{} ve {} toplamı {} dır".format(a,b,a+b))
+elif işlem=="2":
+  print("{} ve {} farkı {} dır".format(a,b,a-b))
+elif işlem=="3":
+  print("{} ve {} çarpımı {} dır".format(a,b,a*b))
+elif işlem=="4":
+  print("{} ve {} bölümü {} dır".format(a,b,a/b))
